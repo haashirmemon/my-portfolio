@@ -1,0 +1,54 @@
+[
+    {
+      "title": "HTML5",
+      "imageSrc": "src/skills/download.png"
+    },
+    {
+      "title": "CSS3",
+      "imageSrc": "src/skills/download (1).png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "src/skills/download (2).png"
+    },
+    {
+      "title": "advanceJavaScript",
+      "imageSrc": "src/skills/download (2).png"
+    },
+    {
+      "title": "Reactjs",
+      "imageSrc": "src/skills/download (4).png"
+    },
+    {
+      "title": "Nodejs",
+      "imageSrc": "src/skills/download (6).png"
+    },
+    {
+      "title":"Firebase",
+      "imageSrc":"src/skills/download (7).png"
+    },
+    {
+      "title": "nextjs",
+      "imageSrc": "src/skills/download (5).png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "src/skills/download (8).png"
+    },
+    {
+      "title": "react native",
+      "imageSrc": "src/skills/download (9).png"
+    },
+    {
+      "title": "tailwindcss",
+      "imageSrc": "src/skills/tailwindcss.jpeg"
+    },
+    {
+      "title": "express js",
+      "imageSrc": "src/skills/express js.png"
+    },
+    {
+      "title": "bootstrap5",
+      "imageSrc": "src/skills/download.jpeg"
+    }
+  ]

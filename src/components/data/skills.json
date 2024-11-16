@@ -1,7 +1,10 @@
+
+
+
 [
     {
       "title": "HTML5",
-      "imageSrc": "src/assets/download.png"
+      "imageSrc": "../../public/assets/download.png"
     },
     {
       "title": "CSS3",

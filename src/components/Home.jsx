@@ -5,7 +5,7 @@ import Typed from "typed.js";
 import pdf from "../portfoliopdf/my mern resume.pdf";
 import { useEffect, useRef } from "react";
 // import heroImg from ''
-import hero from "./data/hero.json";
+import hero from "./data/hero";
 
 
 const Home = () => {
@@ -47,18 +47,15 @@ const Home = () => {
           </a>
         </div>
         <div className="right" data-aos="fade-up-left" data-aos-duration="1000">
-          <div className="img d-flex justify-content-center align-items-center">
+          {/* <div className="img d-flex justify-content-center align-items-center">
             <img
-              // src="https://cdn.pixabay.com/photo/2019/02/19/08/43/milky-way-4006343_1280.jpg"
-              // src="https://img.freepik.com/free-photo/3d-rendering-cartoon-like-man-working-computer_23-2150797572.jpg?size=626&ext=jpg&ga=GA1.1.904538521.1701264444&semt=sph"
+             
               src={`${hero.imgSrc}`}
-              // src="/assets/hero/hero.avif"
               alt="alt"
             />
-          </div>
+          </div> */}
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 };

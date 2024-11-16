@@ -1,5 +1,7 @@
 import React from "react";
-import skills from "./data/skills.json";
+import { data } from "./data/skills";
+// import skills from "./data/skills";
+// import { Data } from "../components/data/skills";
 
 
 const Skills = () => {
@@ -8,7 +10,7 @@ const Skills = () => {
       <div className="container skills my-3" id="skills">
         <h1>SKILLS</h1>
         <div className="items p-3">
-          {skills.map((data) => (
+          {data.map((skill) => (
             <>
               <div
                 className="text-center item"
@@ -16,11 +18,11 @@ const Skills = () => {
                 data-aos-duration="1000"
               >
                 <img
-                  src={`${data.imageSrc}`}
+                  src={`${skill.imageSrc}`}
                   alt=""
                   style={{ width: "70px", height: "70px" }}
                 />
-                <h4>{data.title}</h4>
+                <h4>{skill.title}</h4>
               </div>
             </>
           ))}
